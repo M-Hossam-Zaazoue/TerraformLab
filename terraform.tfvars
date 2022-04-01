@@ -1,4 +1,6 @@
 ec2_name = "HossamEC2"
 ami_id = "ami-04a50faf2a2ec1901"
 ec2_type = "t2.micro"
-public_key_pair = "HossamKeyPair"
+key_pair_name = "HossamKeyPair"
+public_key_pair = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfr/V3dmR7MV+tICPbh7NQdilBqH+IPr9iPlfC5ZbibHk4oV155BVqHdTxcLUly21OIGrLAnDfoUT6+gwE7QsiAAF3xh+8cMw5xV3vB5oYz1rVM3vRpp/ybbuLteZB5S7csBoOkPZdzAySIFtniJ/TmNl6+p4J2WZcmgvFSgNn+h8lGjgb7QNg6/LJqWY1SOTUgWz/5ApCj4+m0MpMcQl90oJkTbZ775k6fSCRRRNYz8mBSh3uBekZT4nsmhsmPy4qTAFMpKlgi4rgksvpibDUdvdqKN3RPyFS5uK/MGDbQsuYZa0KkXZbWQ+yIOOFYgDcMUr+CDNsQgTP2C5hzvNZ m.hossam@HP-ENVY"
+sec_grp_name = "HossamSecGrp"
