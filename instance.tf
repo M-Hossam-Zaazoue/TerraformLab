@@ -5,6 +5,6 @@ resource "aws_instance" "HossamEC2" {
   key_name = var.public_key_pair
 
   tags = {
-    Name = "HossamEC2"
+    Name = var.ec2_name
   }
 }
